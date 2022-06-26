@@ -8,9 +8,11 @@ GenerateurSpeudoAleatoire generer_nombre(GenerateurSpeudoAleatoire&);
 GenerateurSpeudoAleatoire preparer_generateur(int, int, int, int);
 
 int main() {
+	const int PAS_ERREUR = 0;
 	const int GRAINE_DE_DEPART = 748456;
 	const int MODULO = 156163;
-	int additionneur, multiplicateur;
+	int additionneur;
+	int multiplicateur;
 	bool ordreStop = false;
 
 	cout << "Entrez un nombre" << endl;
@@ -33,5 +35,5 @@ int main() {
 			ordreStop = true;
 		}
 	}
-	return 0;
+	return PAS_ERREUR;
 }
