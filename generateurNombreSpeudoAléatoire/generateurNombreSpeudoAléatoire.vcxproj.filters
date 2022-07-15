@@ -18,15 +18,18 @@
     <ClCompile Include="main.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="generer_nombre.cpp">
+    <ClCompile Include="generateur_speudo_aleatoire.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="preparer_generateur.cpp">
+    <ClCompile Include="saisir_variable_generateur.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="demander_continuation_generation.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="generateur_speudo_aleatoire.h">
+    <ClInclude Include="generateur_speudo_aleatoire.hpp">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>

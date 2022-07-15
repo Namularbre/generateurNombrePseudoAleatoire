@@ -139,12 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="generer_nombre.cpp" />
+    <ClCompile Include="demander_continuation_generation.cpp" />
+    <ClCompile Include="generateur_speudo_aleatoire.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="preparer_generateur.cpp" />
+    <ClCompile Include="saisir_variable_generateur.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="generateur_speudo_aleatoire.h" />
+    <ClInclude Include="generateur_speudo_aleatoire.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
