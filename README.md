@@ -1,4 +1,4 @@
-generateurNombreSpeudoAléatoire
+generateurNombrePseudoAléatoire
 
 Ce projet a été fait en C++/C afin de tester un algorithme permetant de générer un entier pseudo-aléatoirement.
 
